@@ -1,0 +1,86 @@
+.post-page-container {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.post-page-container h2 {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin: -20px -20px 20px -20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.post-type-selection {
+  margin-bottom: 20px;
+}
+
+.post-type-selection label {
+  margin-right: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+.image-upload {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-upload input[type="file"] {
+  display: none;
+}
+
+.image-upload button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.post-button {
+  background-color: #808080;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  float: right;
+}
+
+.post-button:hover {
+  background-color: #606060;
+}
+
+h3 {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin: 20px -20px;
+}
+

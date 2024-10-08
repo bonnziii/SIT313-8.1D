@@ -1,0 +1,34 @@
+.find-question-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  .filter-section select,
+  .filter-section input,
+  .filter-section button {
+    margin-right: 10px;
+  }
+  
+  .questions-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .question-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .question-card button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
